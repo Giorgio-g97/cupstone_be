@@ -10,7 +10,7 @@ const cors = require('cors')
 const path = require('path')
 
 // Import Route 
-const companiesRoute = require('../backend/routes/companies')
+const companiesRoute = require('./routes/companies')
 const usersRoute = require('./routes/users')
 const MailRoute = require('./routes/SendEmail')
 const LoginRoute = require('./routes/login')
